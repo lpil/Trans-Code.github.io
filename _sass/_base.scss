@@ -1,5 +1,4 @@
-@import 'pages/resources';
+@import 'components/main';
+@import 'components/navbar';
 
-main {
-  margin: 0px 5px 0px 5px;
-}
+@import 'pages/resources';
