@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Hackday Resources
+page_class: resources
 ---
 
 _From choosing which language to start with to learning a new skill, this page
 will get you started._
 
----
+<img alt="Which programming language should I learn first?" src="images/whichpr.png">
 
 This might be your first hackday. Or you're just curious about programming and
 aren't quite sure where to start. Click on the button on the right to link to
@@ -14,9 +15,6 @@ an infographic by Carl Cheo. It's laid out as a question and answer flowchart
 aimed at helping you figure out which language will suit you most. There are
 also some great Lord of the Rings references for the fans out there.
 
-<img height="200" width="300" alt="Which programming language should I learn first?" src="images/whichpr.png">
-
----
 
 ### General
 
@@ -35,10 +33,9 @@ We'd definitely suggest it as your first port of call. Treehouse and
 Codecademy have tutorials for all the programming languages below. We have
 also added an independent resource for each langauge.
 
-<a href="http://www.codecademy.com/"><img height="200" width="300" alt="Codecademy link" src="images/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg"></a>
-<a href="http://teamtreehouse.com/"><img height="200" width="300" alt="Treehouse link" src="images/Treehouse's_logo_(Jan_2015).png"></a>
+<a href="http://www.codecademy.com/"><img alt="Codecademy" src="images/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg"></a>
+<a href="http://teamtreehouse.com/"><img alt="Treehouse" src="images/Treehouse's_logo_(Jan_2015).png"></a>
 
----
 
 ### HTML/CSS
 
@@ -52,7 +49,6 @@ extremely useful w3schools tutorials.
 
 <a href="http://www.w3schools.com"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 ### JavaScript
 
@@ -65,7 +61,6 @@ up and one that will definitely hold you in good stead.
 
 <a href="http://read.humanjavascript.com"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 ### Python
 
@@ -78,7 +73,6 @@ completing the Codecademy or Treehouse course first though.
 
 <a href="http://learnpythonthehardway.org/book/"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 ### Ruby
 
@@ -91,7 +85,6 @@ step-by-step guide. The tutorial in the link does just that.
 
 <a href="http://learnrubythehardway.org/book/"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 ### Ruby on rails
 
@@ -105,7 +98,6 @@ in the link.
 
 <a href="http://www.railstutorial.org/book/"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 ### PHP
 
@@ -117,7 +109,6 @@ advised.
 
 <a href="http://php.net/manual/en/tutorial.php"><button class="btn btn-success">Tutorial</button></a>
 
----
 
 If you have any suggestions or have found the tutorials above useful it would
 be fantastic to get your feedback. We want to keep this page as a living

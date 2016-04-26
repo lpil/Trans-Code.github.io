@@ -21,7 +21,7 @@
     </ul>
   </nav>
 
-  <main role="main" class="content">
+  <main role="main"{% if page.page_class %} class="{{ page.page_class }}"{% endif %}>
     {{ content }}
   </main>
 
