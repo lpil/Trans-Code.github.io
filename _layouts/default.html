@@ -7,27 +7,25 @@
   <link rel="stylesheet" href="/css/main.css" type="text/css" charset="utf-8">
 </head>
 <body>
-  <div class="navbar">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a id="trans-code-link" href="http://trans-code.org" class="navbar-brand">
-          <img height="40" width="240" alt="Trans-code" src="images/cropped-cropped-TransCode_transparent2.jpg" />
-        </a>
-        <ul class="nav navbar-nav nav-pills pull-left">
-          <li {% if page.url == "/" %}class="active"{% endif %}>
-            <a href="/">Hackday projects</a>
-          </li>
-          <li {% if page.url == "/resources.html" %}class="active"{% endif %}>
-            <a href="/resources">Hackday Resources</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <nav class="navbar">
+    <a href="/" class="navbar__logo">
+      <img height="40" width="240" alt="Trans-code" src="images/cropped-cropped-TransCode_transparent2.jpg" />
+    </a>
+    <ul class="navbar__nav">
+      <li {% if page.url == "/" %}class="active"{% endif %}>
+        <a href="/">Hackday projects</a>
+      </li>
+      <li {% if page.url == "/resources.html" %}class="active"{% endif %}>
+        <a href="/resources">Hackday Resources</a>
+      </li>
+    </ul>
+  </nav>
 
-  <div class="content">
+  <main role="main" class="content">
     {{ content }}
-  </div>
+  </main>
 
+  <footer>
+  </footer>
 </body>
 </html>
